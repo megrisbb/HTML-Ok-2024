@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Home Work 1.2  */
+header {
+    background-color: #8D8484;
+    height: 15vh;
+}
+header,
+.contents section,
+.spams article,
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.contents section,
+.spams article {
+    color: white;
+}
+
+main {
+    display: flex;}
+
+.contents {
+    width: 70vw;
+}
+
+.first-content-block {
+    background-color: #776969;
+    height: 23.33vh;
+}
+
+.second-content-block {
+    background-color: #643030;
+    height: 23.33vh;
+}
+
+.third-content-block {
+    background-color: #441818;
+    height: 23.33vh;
+}
+
+.spams {
+    width: 30vw;
+}
+
+.spam1 {
+    background-color: #937575;
+    height: 35vh;
+}
+
+.spam2 {
+    background-color: #644C4C;
+    height: 35vh;
+}
+
+footer {
+    background-color: #BDBDBD;
+    height: 15vh;
+}
+
+/* End

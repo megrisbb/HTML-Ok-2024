@@ -1,0 +1,137 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e3e3e3;
+}
+/* End */
+/* Home Work 1  */
+.home-works1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home-works1 a,
+.home-work2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: #4f4747;
+    border-radius: 10px;
+}
+
+.home-work2 a{
+    padding: 10px 37px;
+}
+
+.home-work2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.arrow a {
+    text-decoration: none;
+    font-size: 50px;
+    color: #4f4747;
+}
+/*.home-work2 p {*/
+/*    text-align: center;*/
+/*    font-size: 40px;*/
+/*}*/
+.home-works1 a:hover {
+    background-color: grey;
+}
+
+/* End */
+
+/* HW 3 */
+#home-work3 {
+    height: 100vh;
+}
+
+.home-work3__body {
+    background-color: #ffc1cb;
+}
+
+.top-content {
+
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px solid red;
+    border-right: 2px solid red;
+    width: 97vw
+}
+
+
+.lower-content {
+    background-color: #272727 ;
+    height: 50vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lower-content__arrow a {
+    color: white;
+}
+.title {
+    margin-top: 70px;
+    font-size: 30px;
+}
+.text {
+    margin: 30px;
+}
+/* End */
+
+#third-block {
+    height: 100vh;
+    background-color: #A74848;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.third-block__arrow a {
+    color: white;
+}
+
+.third-block__text {
+    font-size: 50px;
+    color: white;
+}
+
+
+
+
+
+
+
+
