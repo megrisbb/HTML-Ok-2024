@@ -1,0 +1,46 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/*///////////*/
+
+.wrapper {
+    background-image: url("../img/background original.png");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-forest {
+    display: flex;
+}
+
+.content-forest__body {
+    display: flex;
+    flex-direction: column;
+
+}
+.content-forest__img img{
+    width: 35vw;
+    height: 45vh;
+}
+
+.content-forest__body {
+    background-color: white;
+    width: 35vw;
+    height: 45vh;
+}
