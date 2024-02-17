@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19234d38-655d-4ef3-98c9-f0a998373c37" name="Changes" comment="Lesson 3 Home Work">
-      <change afterPath="$PROJECT_DIR$/HTML Project/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML Project/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson4/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson4/index.html" afterDir="false" />
+    <list default="true" id="19234d38-655d-4ef3-98c9-f0a998373c37" name="Changes" comment="Project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Project/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Project/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML Project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Project/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +25,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -81,6 +82,12 @@
       <workItem from="1707990560968" duration="1837000" />
       <workItem from="1708004157282" duration="10940000" />
       <workItem from="1708077279330" duration="7804000" />
+      <workItem from="1708094735041" duration="211000" />
+      <workItem from="1708100489087" duration="9912000" />
+      <workItem from="1708173291767" duration="509000" />
+      <workItem from="1708180697193" duration="1527000" />
+      <workItem from="1708195274350" duration="87000" />
+      <workItem from="1708195428747" duration="8828000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 1 Home Work">
       <option name="closed" value="true" />
@@ -114,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707741166472</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Project">
+      <option name="closed" value="true" />
+      <created>1708094782326</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708094782326</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +139,7 @@
     <MESSAGE value="Lesson 1 Home Work" />
     <MESSAGE value="Lesson 2 Home Work" />
     <MESSAGE value="Lesson 3 Home Work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 3 Home Work" />
+    <MESSAGE value="Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project" />
   </component>
 </project>
