@@ -206,8 +206,143 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .second-page__image img {
-    max-width: 100%;
+    width: 100%;
+    height: 65.4vh;
     margin-top: 50px;
+}
+
+
+/*Third Page*/
+
+.third-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.third-page-blocks {
+    margin-top: 116px;
+}
+
+.third-page-blocks__first,
+.third-page-blocks__second {
+    /*width: 85vw;*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.third-page-blocks__second {
+    margin-top: 139px;
+}
+
+
+.third-page-blocks__block {
+    width: 275px;
+    margin: 0 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third-page__title {
+    color: #FFF;
+    font-family: Lato sans-serif;
+    font-size: 60px;
+    line-height: 70px;
+    width: 47vw;
+    text-align: center;
+}
+
+.block-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-icon img {
+    background-color: #2e1d1e;
+    padding: 17px;
+    border-radius: 50%;
+}
+
+
+.block-title {
+    text-align: center;
+    margin-top: 39px;
+    color: #FFF;
+    font-family: Lato sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.75px;
+}
+
+.block-text {
+    text-align: center;
+    margin-top: 24px;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Lato sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+}
+
+/*Our Portfolio*/
+.third-page-portfolio {
+    margin-top: 199px;
+}
+
+.third-page-portfolio__title {
+    color: #FFF;
+    font-family: Lato sans-serif;
+    font-size: 58px;
+    font-weight: 800;
+}
+
+.third-page-portfolio__body {
+    margin-top: 185px;
+}
+
+.third-page-portfolio img {
+    width: 23.33vw;
+    margin: 0 20px;
+    background-color: #1E1E20;
+    padding: 15px;
+    border-radius: 14px;
+}
+
+
+/*Footer*/
+.footer {
+    display: flex;
+}
+.footer__title {
+    width: 70vw;
+    color: #FFF;
+    font-family: Lato sans-serif;
+    font-size: 60px;
+}
+
+.footer__copyright {
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Lato sans-serif;
+    font-size: 16px;
+    line-height: 38px; /* 237.5% */
+    letter-spacing: -0.5px;
+}
+
+.footer__contacts-button {
+    color: white;
+    background-color: #5454D4;
+    border-radius: 4px;
+    padding: 1.4vh 3.4vw;
+    font-family: Lato sans-serif;
+    font-size: 20px;
+    margin-top: 4.8vh;
 }
 
 
@@ -217,6 +352,7 @@ h1, h2, h3, h4, h5, h6 {
     .wrapper {
         width: 83vw;
     }
+
     .main-page-content__title {
         font-size: 60px;
         line-height: 70px;
@@ -237,9 +373,45 @@ h1, h2, h3, h4, h5, h6 {
     .second-page__image img {
         height: 53vh;
     }
+
     /*.second-page__top-title {*/
     /*    font-size: 50px;*/
     /*}*/
+    /*Third Page*/
+    .third-page-blocks__first,
+    .third-page-blocks__second {
+        gap: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .third-page-blocks__block {
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .third-page__title {
+        line-height: 50px;
+        font-size: 48px;
+    }
+.third-page-portfolio__body {
+    margin-top: 70px;
+}
+    .third-page-portfolio__title {
+        font-size: 58px;
+    }
+    .third-page-portfolio img {
+        display: flex;
+        width: 80vw;
+        margin-top: 50px;
+    }
+    .third-page-portfolio img:nth-child(2),
+    .third-page-portfolio img:nth-child(3){
+        display: none;
+    }
 }
 
 
@@ -267,6 +439,7 @@ h1, h2, h3, h4, h5, h6 {
     .main-page-content__body {
         width: 30vw;
     }
+
     .main-page-content__title {
         font-size: 40px;
         line-height: 55px;
@@ -296,6 +469,15 @@ h1, h2, h3, h4, h5, h6 {
     /*Second page*/
     .second-page__image img {
         height: 43vh;
+    }
+
+    /* Third Page*/
+    .third-page__title {
+        line-height: 45px;
+        font-size: 36px;
+    }
+    .third-page-portfolio__title {
+        font-size: 40px;
     }
 }
 
@@ -371,6 +553,7 @@ h1, h2, h3, h4, h5, h6 {
     .main-page__logo-text {
         font-size: 23px;
     }
+
     /*Second page*/
     .second-page__top {
         flex-direction: column;
@@ -381,6 +564,7 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 34px;
         line-height: 150%;
     }
+
     .second-page__top-text {
         width: 80%;
         font-size: 16px;
@@ -388,10 +572,22 @@ h1, h2, h3, h4, h5, h6 {
         padding: 0;
         margin-top: 30px;
     }
+
     .second-page__image img {
         margin-top: 50px;
         width: 100%;
-        height: 30vh;
+        height: 25vh;
+    }
+
+    /* Third Page*/
+    .third-page__title {
+        line-height: 35px;
+        width: 100%;
+    }
+    .third-page-portfolio__title {
+        line-height: 150%;
+        margin-left: 20px;
+        font-size: 36px;
     }
 }
 
@@ -400,10 +596,18 @@ h1, h2, h3, h4, h5, h6 {
     .second-page__top-title {
         width: 100%;
     }
+
     .second-page__top-text {
         width: 85%;
     }
+
     .second-page__image img {
         height: 20vh;
+    }
+
+    /* Third Page*/
+    .third-page__title {
+        line-height: 50px;
+        font-size: 36px;
     }
 }
